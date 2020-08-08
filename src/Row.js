@@ -51,7 +51,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
 
       <div className="row_posters">
         {movies.map((movie, index) => (
-          // <div className="row_poster_container">
           <img
             key={movie.id}
             className={`row_poster ${isLargeRow && "row_posterLarge"}`}
@@ -59,7 +58,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
             onClick={() => {
               handleClick(movie);
             }} />
-          // </div>
         ))}
       </div>
       {trailerUrl.length > 0 &&
