@@ -4,6 +4,7 @@
 
 .app {
   background-color: #111;
+  overflow-x: hidden;
 }
 
 .app_dialog {
