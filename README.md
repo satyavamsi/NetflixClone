@@ -9,4 +9,4 @@ So if the package is able to find the trailer it will be played otherwise nothin
 
 ## Planned Updates
 
-I am not planning any updated on this, as I just built this to kind of increase my grip on React Functional Components
+I am not planning any updates on this, as I just built this to kind of increase my grip on React Functional Components
